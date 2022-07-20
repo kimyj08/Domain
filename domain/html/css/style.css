@@ -1,4 +1,5 @@
 * {
+    font-family: 'Hahmlet', serif;
     margin: 0;  /* 바깥쪽 여백 */
     padding: 0;  /* 안쪽 여백 */
     box-sizing: border-box;  /* 화면을 꽉 채움 */
@@ -82,7 +83,7 @@ ul {
 }
 
 #topMenu > li > ul > li > a:hover {
-    color: #f00;
+    color: #ddd;
 }
 
 #topMenu > li {
@@ -115,6 +116,7 @@ ul {
 }
 
 #tabMenu label {
+    font-family: 'Jua', sans-serif;
     display: inline-block;  /* 탭을 가로로 배치 */
     margin: 0 0;
     padding: 15px 25px;
@@ -129,7 +131,7 @@ ul {
 }
 
 #tabMenu input:checked + label {
-    color: #b00;
+    color: #07c;
     border: 1px solid #ddd;
     background-color: #eee;
 }
@@ -156,6 +158,18 @@ ul {
 
 #gallery ul li {
     display: inline;
+}
+
+#audio1 {
+    display: inline;
+    width: 50%;
+    height: 40px;
+}
+
+#audio2 {
+    display: inline;
+    width: 50%;
+    height: 40px;
 }
 
 #tab1:checked ~ #notice,  /* ~ 물결은 '선택자' */
@@ -262,5 +276,6 @@ footer {
 }
 
 a {
+    color: #000;
     text-decoration: none;
 }
